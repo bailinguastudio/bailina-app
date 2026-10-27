@@ -1,0 +1,152 @@
+{
+  "project_name": "Bailina Sing & Play",
+  "app_type": "mobile_web_app",
+  "target_audience": "German-speaking children aged 3-7 learning Spanish with parents",
+  "archetype": "ORGANIC & PLAYFUL 3D (Child-Friendly & Tactile)",
+  "design_principles": [
+    "Audio-First & Tactile Interaction: Designed for toddlers and young children with oversized touch targets (minimum 64px tall/wide), rounded corners (rounded-3xl/2xl), and instant auditory + visual feedback.",
+    "Bilingual Clarity: Every Spanish word is paired directly with its German translation in high-contrast text and clear icons.",
+    "3D Toy World Aesthetic: Rich depth, soft dropshadows, warm cream canvas, turquoise glass/solid containers, sunny yellow badges, and coral primary actions.",
+    "Safety & Parent Control: Kid interface is distraction-free with zero ads or tracking; full settings, vocabulary analytics, and printables locked behind a parent PIN gate."
+  ],
+  "colors": {
+    "primary": "#169CA3",
+    "primary_hover": "#128288",
+    "accent_coral": "#F36F5B",
+    "accent_coral_hover": "#E05844",
+    "accent_yellow": "#F6BC35",
+    "accent_yellow_hover": "#E5A920",
+    "background_warm_cream": "#FFF8EA",
+    "background_card": "#FFFFFF",
+    "text_deep_teal": "#174B50",
+    "text_muted": "#4B767A",
+    "soft_mint": "#D4F2EE",
+    "soft_peach": "#FDE8E3",
+    "soft_amber": "#FEF3D6",
+    "border_teal": "#B2E3E0",
+    "success_green": "#4CAF50",
+    "status_pending": "#FF9800",
+    "status_approved": "#2E7D32"
+  },
+  "typography": {
+    "font_family_display": "'Fredoka', 'Nunito', cursive, sans-serif",
+    "font_family_body": "'Quicksand', 'Nunito', sans-serif",
+    "font_family_mono": "'JetBrains Mono', monospace",
+    "sizes": {
+      "h1_hero": "text-4xl sm:text-5xl font-bold tracking-wide leading-tight",
+      "h2_section": "text-2xl sm:text-3xl font-bold tracking-wide",
+      "h3_card": "text-xl sm:text-2xl font-bold",
+      "body_large": "text-lg sm:text-xl font-medium",
+      "body_regular": "text-base font-medium",
+      "caption_badge": "text-xs sm:text-sm font-bold uppercase tracking-wider"
+    }
+  },
+  "character_definitions": {
+    "bailina": {
+      "name": "Bailina",
+      "description": "Warm medium-brown skin, very large brown eyes, dark brown hair in a high ponytail, turquoise headband, bright yellow T-shirt with a white oval containing 'Hola'",
+      "role": "Lead singer & Spanish guide mascot",
+      "avatar_style": "Soft 3D animated child illustration badge with audio wave animation on talk"
+    },
+    "capi": {
+      "name": "Capi",
+      "description": "Friendly capybara with a playful red baseball cap and red shorts",
+      "role": "Loyal mascot helper & mini-game partner",
+      "avatar_style": "Soft 3D capybara avatar icon encouraging retry and celebrating wins"
+    }
+  },
+  "layout_and_spacing": {
+    "container_max_width": "max-w-4xl mx-auto px-4 sm:px-6",
+    "grid_bento_games": "grid grid-cols-1 md:grid-cols-3 gap-6",
+    "grid_memory_cards": "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4",
+    "grid_ordering_story": "grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-4",
+    "card_radius": "rounded-3xl border-4 border-[#174B50]/10 shadow-[0_8px_24px_rgba(23,75,80,0.08)]",
+    "touch_target_min": "min-h-[64px] min-w-[64px] text-lg font-bold"
+  },
+  "component_structure": {
+    "header": {
+      "desktop_and_mobile": "Sticky top-0 z-40 bg-[#FFF8EA]/90 backdrop-blur-md border-b-4 border-[#169CA3]/20 px-4 py-3 flex items-center justify-between shadow-sm",
+      "elements": [
+        "Brand Logo (Bailina + Capi icon + 'Bailina Sing & Play')",
+        "World Selector Switcher dropdown / pills ('Hola!', 'Tiere & Farben', 'Musik')",
+        "Parent PIN Gate Trigger Button (Eltern-Bereich)",
+        "Admin Operator Toggle Button (Admin Editor)"
+      ]
+    },
+    "hero_home": {
+      "title": "¡Hola! Sing & Play mit Bailina & Capi",
+      "subtitle": "Spanisch lernen durch Lieder, Spiele und Dein Mitmachbuch!",
+      "main_action": "Jetzt spielen! (Big pulsing Coral CTA button with Play Icon)"
+    },
+    "child_flow_games": {
+      "game_1_find_picture": {
+        "title": "Bild finden (Find the picture)",
+        "instruction": "Höre das Wort und klicke auf das richtige Bild!",
+        "card_style": "3 big rounded cards with high contrast images, instant sound on tap, checkmark celebration on correct"
+      },
+      "game_2_memory_pair": {
+        "title": "Paare finden (Find the pair)",
+        "instruction": "Finde das spanische Wort und das deutsche Bild-Paar!",
+        "card_style": "Flip cards with 3D turn effect, audio clip on flip"
+      },
+      "game_3_story_order": {
+        "title": "Mini-Geschichte ordnen (Put in order)",
+        "instruction": "Bringe die 3 Bilder in die richtige Reihenfolge!",
+        "card_style": "Numbered step cards (1, 2, 3) drag or tap to reorder bilingual story panels"
+      }
+    },
+    "celebration_overlay": {
+      "features": [
+        "Confetti burst animation",
+        "3 animated gold stars rating",
+        "Cheerful Spanish praise voice audio ('¡Muy bien!', '¡Excelente!')",
+        "Nächste Übung / Noch einmal spielen buttons"
+      ]
+    },
+    "song_player": {
+      "title": "Lieder & Audio-Spieler",
+      "features": [
+        "Interactive audio player with track progress & duration",
+        "Bilingual synchronized lyrics captions (Spanisch & Deutsch)",
+        "Audio disabled state indicator when MP3 is pending",
+        "Mitmachbuch / Arbeitsblatt drucken button with preview modal"
+      ]
+    },
+    "parent_view": {
+      "pin_modal": "4-digit numeric keypad lock ('PIN 1234') with parent safety check",
+      "content": [
+        "Gelerntes Vokabular summary grid",
+        "Lernfortschritt & Spieldauer metrics",
+        "Arbeitsblätter für zu Hause drucken",
+        "Pädagogischer Eltern-Hinweis zur spanischen Aussprache & Wiederholung"
+      ]
+    },
+    "admin_editor": {
+      "access": "Operator login simulation / Admin mode switch",
+      "features": [
+        "Vokabel-Verwaltung (Edit Spanish word, German translation, category)",
+        "MP3 Audio Upload & status toggle (Missing MP3 disables player in child view)",
+        "KI-Bilder Freigabe ('Zur Freigabe', status: Genehmigt, Offen, Abgelehnt)",
+        "Placeholder 'Zugang freischalten' access key unlock button (no real payment)"
+      ]
+    }
+  },
+  "image_urls": {
+    "bailina_hero": "https://images.unsplash.com/photo-1611580637903-6e781ca88949?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxzcGFuaXNoJTIwdm9jYWJ1bGFyeSUyMGNoaWxkcmVuJTIwbGVhcm5pbmclMjBpbGx1c3RyYXRpb24lMjBjb2xvcmZ1bHxlbnwwfHx8fDE3OTMwNzU1MDR8MA&ixlib=rb-4.1.0&q=85",
+    "capi_character": "https://images.unsplash.com/photo-1712743586807-93f857693f3f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwzfHxjdXRlJTIwYW5pbWF0ZWQlMjBjYXB5YmFyYSUyMGNoYXJhY3RlciUyMGlsbHVzdHJhdGlvbnxlbnwwfHx8fDE3OTMwNzU1MDR8MA&ixlib=rb-4.1.0&q=85",
+    "vocabulary_apple": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "vocabulary_dog": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "vocabulary_sun": "https://images.unsplash.com/photo-1590552515252-3a5a1bce7bed?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "vocabulary_cat": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "vocabulary_house": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "printable_sheet_preview": "https://images.unsplash.com/photo-1638112583469-6b396dafea6f?crop=entropy&cs=srgb&fm=jpg&q=85"
+  },
+  "instructions_to_main_agent": [
+    "Build a single-page React app (App.js) with clear tab/section switching between: Home/Games, Songs, Printable Sheets, Parent View, and Admin View.",
+    "Strictly follow the color palette: Turquoise #169CA3 for key UI accents/headers, Coral #F36F5B for CTAs, Sunny Yellow #F6BC35 for stars/badges, Warm Cream #FFF8EA for background, Deep Teal #174B50 for readable body text.",
+    "Ensure all interactive components (buttons, tabs, game cards, PIN inputs, admin inputs) include data-testid attributes (e.g., data-testid='play-now-btn', data-testid='game-card-apple', data-testid='parent-pin-submit').",
+    "Add audio playback support using Web Audio API synthetic speech synth or HTML5 Audio so kids get audible feedback when pressing cards/buttons.",
+    "Implement Sonner toast notifications for Parent & Admin actions (e.g. 'Bild freigegeben', 'Vokabel gespeichert', 'PIN korrekt').",
+    "Keep text minimal, clear, friendly, and bilingual for vocabulary elements."
+  ]
+}

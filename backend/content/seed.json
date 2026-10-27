@@ -1,0 +1,80 @@
+{
+  "images": [
+    {"key": "bailina", "label": "Bailina (Hauptfigur)", "url": "https://static.prod-images.emergentagent.com/jobs/53a58f30-df63-4ae2-a2cb-8fc9a865c08a/images/cf300280cefbf30e209a35cc4d579589b47b81c3b292702de2169551f31615d3.jpeg"},
+    {"key": "capi", "label": "Capi (Capybara)", "url": "https://static.prod-images.emergentagent.com/jobs/53a58f30-df63-4ae2-a2cb-8fc9a865c08a/images/191a702a4318de1bb164dcbefd3875eb846f2af337c10bb2b49cc5486d504440.jpeg"},
+    {"key": "word_hola", "label": "Wortbild: hola", "url": "https://static.prod-images.emergentagent.com/jobs/53a58f30-df63-4ae2-a2cb-8fc9a865c08a/images/7f2bf427079b5ddab07eb329825f88026a9597ccb40a15adb4ebe448517d68ef.jpeg"},
+    {"key": "word_adios", "label": "Wortbild: adiós", "url": "https://static.prod-images.emergentagent.com/jobs/53a58f30-df63-4ae2-a2cb-8fc9a865c08a/images/f4e5c0258f92b88f88656384e2e1cd054f77c74f4ab87acfdcc76e999e658ffd.jpeg"},
+    {"key": "word_buenos_dias", "label": "Wortbild: buenos días", "url": "https://static.prod-images.emergentagent.com/jobs/53a58f30-df63-4ae2-a2cb-8fc9a865c08a/images/422f4d797b1d88193f2d4deea945f3912ef647739f81c196c784c5888511f375.jpeg"},
+    {"key": "word_buenas_noches", "label": "Wortbild: buenas noches", "url": "https://static.prod-images.emergentagent.com/jobs/53a58f30-df63-4ae2-a2cb-8fc9a865c08a/images/301369982e1661196809107a978a0b54d0139e98e5ef81c13b33f2c3d0039580.jpeg"},
+    {"key": "word_como_te_llamas", "label": "Wortbild: ¿Cómo te llamas?", "url": "https://static.prod-images.emergentagent.com/jobs/53a58f30-df63-4ae2-a2cb-8fc9a865c08a/images/ebbf790e1bb19e4da1e5c67ffaa7bfb23980bdf5b835f15d0682597d972ab572.jpeg"},
+    {"key": "word_me_llamo", "label": "Wortbild: Me llamo …", "url": "https://static.prod-images.emergentagent.com/jobs/53a58f30-df63-4ae2-a2cb-8fc9a865c08a/images/1f645f08a0f4350d71e0560c91a7dc143b531209964d12a83f3b16f1fbe36efa.jpeg"},
+    {"key": "word_gracias", "label": "Wortbild: gracias", "url": "https://static.prod-images.emergentagent.com/jobs/53a58f30-df63-4ae2-a2cb-8fc9a865c08a/images/b80a5d54f1b1672957aeabd1883281a3ce4055ef27ed9fcd36455ead0a996047.jpeg"},
+    {"key": "word_por_favor", "label": "Wortbild: por favor", "url": "https://static.prod-images.emergentagent.com/jobs/53a58f30-df63-4ae2-a2cb-8fc9a865c08a/images/2dda7037534d046aa56175612019f880c494db189cda41efb4820cdc9f975cde.jpeg"},
+    {"key": "word_bien", "label": "Wortbild: bien", "url": "https://static.prod-images.emergentagent.com/jobs/53a58f30-df63-4ae2-a2cb-8fc9a865c08a/images/18e6c9ba7f2e6060a237c4b5fd976502b9eec16635a9e280029bd7c21249f49b.jpeg"},
+    {"key": "word_amigos", "label": "Wortbild: el amigo / la amiga", "url": "https://static.prod-images.emergentagent.com/jobs/53a58f30-df63-4ae2-a2cb-8fc9a865c08a/images/6b51877bd8e079c53290b157148b9da6947acd736cc5c9c22b60fb7b68c2869e.jpeg"}
+  ],
+  "worlds": [
+    {
+      "slug": "hola",
+      "title": "¡Hola! – Begrüßen und vorstellen",
+      "subtitle": "Hallo sagen, sich vorstellen und Freunde finden",
+      "icon": "Hand",
+      "order": 1,
+      "published": true,
+      "review_note": "Spanische Texte vor Veröffentlichung von Dari prüfen lassen.",
+      "welcome": {
+        "audio_url": "",
+        "lines": [
+          {"es": "¡Hola! Me llamo Bailina.", "de": "Hallo! Ich heiße Bailina."},
+          {"es": "Y él es mi amigo Capi.", "de": "Und das ist mein Freund Capi."},
+          {"es": "¿Cómo te llamas?", "de": "Wie heißt du?"},
+          {"es": "¡Vamos a jugar!", "de": "Lass uns spielen!"}
+        ]
+      },
+      "words": [
+        {"id": "w01", "es": "hola", "de": "hallo", "image_key": "word_hola", "icon": "Hand"},
+        {"id": "w02", "es": "adiós", "de": "tschüss", "image_key": "word_adios", "icon": "Footprints"},
+        {"id": "w03", "es": "buenos días", "de": "guten Morgen", "image_key": "word_buenos_dias", "icon": "Sun"},
+        {"id": "w04", "es": "buenas noches", "de": "gute Nacht", "image_key": "word_buenas_noches", "icon": "Moon"},
+        {"id": "w05", "es": "¿Cómo te llamas?", "de": "Wie heißt du?", "image_key": "word_como_te_llamas", "icon": "CircleHelp"},
+        {"id": "w06", "es": "Me llamo …", "de": "Ich heiße …", "image_key": "word_me_llamo", "icon": "Smile"},
+        {"id": "w07", "es": "gracias", "de": "danke", "image_key": "word_gracias", "icon": "Gift"},
+        {"id": "w08", "es": "por favor", "de": "bitte", "image_key": "word_por_favor", "icon": "Apple"},
+        {"id": "w09", "es": "bien", "de": "gut", "image_key": "word_bien", "icon": "ThumbsUp"},
+        {"id": "w10", "es": "el amigo / la amiga", "de": "der Freund / die Freundin", "image_key": "word_amigos", "icon": "Users"}
+      ],
+      "story": {
+        "title_es": "Un día con Capi",
+        "title_de": "Ein Tag mit Capi",
+        "steps": [
+          {"es": "¡Buenos días!", "de": "Guten Morgen!", "image_key": "word_buenos_dias", "icon": "Sun"},
+          {"es": "¡Hola! Me llamo Bailina.", "de": "Hallo! Ich heiße Bailina.", "image_key": "word_hola", "icon": "Hand"},
+          {"es": "Ahora somos amigos.", "de": "Jetzt sind wir Freunde.", "image_key": "word_amigos", "icon": "Users"},
+          {"es": "¡Buenas noches!", "de": "Gute Nacht!", "image_key": "word_buenas_noches", "icon": "Moon"}
+        ]
+      },
+      "song": {
+        "title_es": "La canción del hola",
+        "title_de": "Das Hallo-Lied",
+        "audio_url": "",
+        "placeholder": true,
+        "lines": [
+          {"es": "¡Hola, hola! ¿Qué tal?", "de": "Hallo, hallo! Wie geht's?"},
+          {"es": "Me llamo Bailina.", "de": "Ich heiße Bailina."},
+          {"es": "¡Hola, hola, amigo!", "de": "Hallo, hallo, Freund!"},
+          {"es": "¡Adiós, adiós!", "de": "Tschüss, tschüss!"}
+        ]
+      },
+      "activity": {
+        "title": "Mein ¡Hola!-Malblatt",
+        "booklet_ref": "Passt zu Booklet-Seite 4–5 (Platzhalter – bitte Seitenzahl prüfen)",
+        "placeholder": true,
+        "tasks": [
+          "Verbinde jedes spanische Wort mit dem passenden deutschen Wort.",
+          "Male Bailinas Haarband türkis an.",
+          "Sag zu jemandem aus deiner Familie: ¡Hola! (Hallo!)"
+        ]
+      }
+    }
+  ]
+}
